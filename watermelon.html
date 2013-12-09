@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+*{ margin:0; padding:0}
+body{ background:#e6e5e5}
+.container{
+	 		width:360px;
+	 		height:360px;
+	  		margin:0 auto; 
+	 		background:#bcf463;
+	  		margin-top:100px;
+	  		border-radius:180px;
+			position:relative;
+		  	text-align:center;
+		   	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    font-size:36px; 
+			color:#FFF; 
+			line-height:150px;
+			}
+.watermelon{ 
+			width:284px; 
+			height:142px; 
+			border-radius:0 0 142px 142px;
+			background:#00a79d;
+			margin:0 auto;
+			position:relative; 
+			top:20px; 
+			animation:rota 5s linear infinite;
+			-moz-animation:rota 5s linear infinite; 		    				            -webkit-animation:rota 5s linear infinite; 					     		-o-animation:rota 5s linear infinite;}
+			
+
+.inner{ 
+		width:242px;
+		height:121px; 
+		background:#ff5963; 
+		position:absolute; 
+		border-radius:0 0 121px 121px; 
+		left:11px; border-bottom:10px solid #fff; 
+		border-left:10px solid #fff; 
+		border-right:10px solid #fff;}
+li{
+	 width:0px;
+	background: #fff;
+	border-radius: 60px 0px 32px 30px;
+	list-style: none;
+	border-bottom:13px solid #FFF;
+	border-left:5px solid transparent;
+	border-right:5px solid transparent;
+	position: absolute;
+	float: left;
+	transform:rotate(-30deg);
+	left:40px; top:25px;
+	
+}
+
+li:nth-child(1){ left:40px; top:25px;}
+li:nth-child(2){ left:80px; top:25px;}
+li:nth-child(3){ left:120px; top:25px;}
+li:nth-child(4){ left:160px; top:25px;}
+li:nth-child(5){ left:200px; top:25px;}
+li:nth-child(6){ left:30px; top:60px;}
+li:nth-child(7){ left:70px; top:60px;}
+li:nth-child(8){ left:110px; top:60px;}
+li:nth-child(9){ left:150px; top:60px;}
+li:nth-child(10){ left:190px; top:60px;}
+li:nth-child(11){ left:170px; top:90px;}
+li:nth-child(12){ left:130px; top:90px;}
+li:nth-child(13){ left:90px; top:90px;}
+li:nth-child(14){ left:50px; top:85px;}
+
+
+<!----------开始动画-------------->
+@keyframes rota{
+	0%{
+		transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+	}
+	25%{
+	     transform:rotate(30deg);
+		 -moz-transform:rotate(30deg);
+		 -webkit-transform:rotate(30deg);
+		 -o-transform:rotate(30deg);
+		 
+		 }
+	50%{ transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	75%{  transform:rotate(-30deg);
+		 -moz-transform:rotate(-30deg);
+		 -webkit-transform:rotate(-30deg);
+		 -o-transform:rotate(-30deg);
+		 }
+	100%{  transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	}
+@-moz-keyframes rota{
+	0%{
+		transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+	}
+	25%{
+	     transform:rotate(30deg);
+		 -moz-transform:rotate(30deg);
+		 -webkit-transform:rotate(30deg);
+		 -o-transform:rotate(30deg);
+		 
+		 }
+	50%{ transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	75%{  transform:rotate(-30deg);
+		 -moz-transform:rotate(-30deg);
+		 -webkit-transform:rotate(-30deg);
+		 -o-transform:rotate(-30deg);
+		 }
+	100%{  transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	}
+@-webkit-keyframes rota{
+	0%{
+		transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+	}
+	25%{
+	     transform:rotate(30deg);
+		 -moz-transform:rotate(30deg);
+		 -webkit-transform:rotate(30deg);
+		 -o-transform:rotate(30deg);
+		 
+		 }
+	50%{ transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	75%{  transform:rotate(-30deg);
+		 -moz-transform:rotate(-30deg);
+		 -webkit-transform:rotate(-30deg);
+		 -o-transform:rotate(-30deg);
+		 }
+	100%{  transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	}
+@-o-keyframes rota{
+	0%{
+		transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+	}
+	25%{
+	     transform:rotate(30deg);
+		 -moz-transform:rotate(30deg);
+		 -webkit-transform:rotate(30deg);
+		 -o-transform:rotate(30deg);
+		 
+		 }
+	50%{ transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	75%{  transform:rotate(-30deg);
+		 -moz-transform:rotate(-30deg);
+		 -webkit-transform:rotate(-30deg);
+		 -o-transform:rotate(-30deg);
+		 }
+	100%{  transform:rotate(0);
+		-moz-transform:rotate(0);
+		-o-transform:rotate(0);
+		-webkit-transform:rotate(0);
+		}
+	}
+</style>
+</head>
+
+<body>
+<div class="container">
+		Watermelon
+    	<div class="watermelon">
+        	<div class="inner">
+            	<ul>
+               	  <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                     <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
